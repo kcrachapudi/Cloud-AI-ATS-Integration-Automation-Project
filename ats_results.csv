@@ -1,0 +1,19 @@
+recommendation,skills_matched,score,skills_missing,job_profile,raw_output,resume_id
+"The candidate has strong experience in Python, AWS, and DevOps but lacks specific AI/ML experience. Consider further evaluating their potential for AI/ML roles.","['Python', 'AWS', 'DevOps']",0.6,['AI/ML'],aiml-engineer,"{
+  ""score"": 0.6,
+  ""skills_matched"": [
+    ""Python"",
+    ""AWS"",
+    ""DevOps""
+  ],
+  ""skills_missing"": [
+    ""AI/ML""
+  ],
+  ""recommendation"": ""The candidate has strong experience in Python, AWS, and DevOps but lacks specific AI/ML experience. Consider further evaluating their potential for AI/ML roles.""
+}",resume_2.docx
+The resume does not contain any information related to the required skills for the AIML Engineer position.,[],0.2,"['Python', 'AWS', 'DevOps', 'AI/ML']",aiml-engineer,"{
+  ""score"": 0.2,
+  ""skills_matched"": [],
+  ""skills_missing"": [""Python"", ""AWS"", ""DevOps"", ""AI/ML""],
+  ""recommendation"": ""The resume does not contain any information related to the required skills for the AIML Engineer position.""
+}",resume_7.docx

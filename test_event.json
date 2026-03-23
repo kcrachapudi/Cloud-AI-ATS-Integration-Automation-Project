@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "ai-ats-resumes-aiml-286802089573-us-east-2-an"
+        },
+        "object": {
+          "key": "resume_2.docx"
+        }
+      }
+    }
+  ]
+}
