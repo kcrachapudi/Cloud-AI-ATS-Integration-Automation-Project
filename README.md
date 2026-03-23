@@ -1,11 +1,11 @@
-🚀 AI-Powered Resume Processing & ATS Automation Pipeline (AWS)
-📌 Overview
+# 🚀 AI-Powered Resume Processing & ATS Automation Pipeline (AWS)
+# 📌 # Overview
 
 This project is a serverless, AI-powered resume processing pipeline built on AWS. It automates the ingestion, analysis, and scoring of resumes using cloud-native services and AI, enabling an ATS-style evaluation system.
 
 The system leverages event-driven architecture to process resumes in real time as soon as they are uploaded.
 
-🧠 Key Features
+# 🧠 Key Features
 ⚡ Event-Driven Automation
 Automatically triggers processing when a resume is uploaded
 🤖 AI-Powered Resume Evaluation
@@ -18,7 +18,8 @@ Assigns scores to resumes based on predefined criteria
 Fully managed, scalable, and cost-efficient
 🔐 Secure Cloud Integration
 IAM roles and policies ensure secure service communication
-🏗️ Architecture
+
+# 🏗️ Architecture
           +-------------------+
           |   Amazon S3       |
           | (Resume Upload)   |
@@ -42,13 +43,15 @@ IAM roles and policies ensure secure service communication
           |   DynamoDB        |
           | (Store Results)   |
           +-------------------+
-⚙️ Tech Stack
+
+# ⚙️ Tech Stack
 Cloud: AWS (S3, Lambda, DynamoDB, IAM, CloudWatch)
 Language: Python
 AI Services: AWS AI (NLP / Document Analysis)
 Data Processing: python-docx
 Infrastructure: Serverless
-🔄 Workflow
+
+# 🔄 Workflow
 Upload a resume (.docx) to S3
 S3 triggers a Lambda function
 Lambda:
@@ -58,7 +61,8 @@ Sends data to AWS AI services
 Generates evaluation score
 Results are stored in DynamoDB
 Logs and errors are tracked via CloudWatch
-📊 Sample Output (DynamoDB)
+
+# 📊 Sample Output (DynamoDB)
 {
   "resume_id": "resume_2",
   "score": 0.87,
@@ -66,7 +70,8 @@ Logs and errors are tracked via CloudWatch
   "experience": "3 years",
   "summary": "Strong backend and cloud experience"
 }
-🔐 Security
+
+# 🔐 Security
 IAM roles configured for:
 S3 access
 DynamoDB write operations
@@ -74,7 +79,7 @@ AI service integration
 Least privilege access enforced
 🧪 Challenges Solved
 
-This project addresses real-world AWS challenges:
+# This project addresses real-world AWS challenges:
 
 ❌ S3 object key mismatches → ✅ Correct key handling
 ❌ Region mismatches → ✅ Unified configuration
@@ -86,13 +91,13 @@ This project addresses real-world AWS challenges:
 🤖 Advanced AI scoring using LLMs
 📊 Dashboard for visualization
 📥 Bulk resume processing
-💡 Use Cases
+
+# 💡 Use Cases
 Applicant Tracking Systems (ATS)
 HR automation platforms
 AI document processing pipelines
 Resume screening tools
 🧑‍💻 Author
-
 Kalyan Rachapudi
 Software Engineer | Cloud | AI Automation
 
@@ -108,7 +113,7 @@ Ability to debug and solve complex AWS issues
 
 Feel free to open issues or suggestions to improve the project!
 
-Next Iteration:
+# Next Iteration:
 
 Add a FastAPI layer 
 🔥 Pro Tip (Do This Next)
