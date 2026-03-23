@@ -1,7 +1,7 @@
 🚀 AI-Powered Resume Processing & ATS Automation Pipeline (AWS)
 📌 Overview
 
-This project is a serverless, AI-powered resume processing pipeline built on AWS. It ავტომates the ingestion, analysis, and scoring of resumes using cloud-native services and AI, enabling an ATS-style evaluation system.
+This project is a serverless, AI-powered resume processing pipeline built on AWS. It automates the ingestion, analysis, and scoring of resumes using cloud-native services and AI, enabling an ATS-style evaluation system.
 
 The system leverages event-driven architecture to process resumes in real time as soon as they are uploaded.
 
@@ -108,6 +108,9 @@ Ability to debug and solve complex AWS issues
 
 Feel free to open issues or suggestions to improve the project!
 
+Next Iteration:
+
+Add a FastAPI layer 
 🔥 Pro Tip (Do This Next)
 
 Add these to your repo to make it elite-level:
@@ -117,6 +120,3 @@ Sample logs from CloudWatch
 2–3 sample resumes for testing
 Short demo video (HUGE impact)
 
-Next Iteration:
-
-Add a FastAPI layer 
